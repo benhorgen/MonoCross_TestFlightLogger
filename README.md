@@ -5,7 +5,7 @@ Use TestFlight to log to from your MonoCross App
 
 To setup:
 
-1. Reference your MonoCross.Utilities project from the MonoCross_TestFlightLogger project contained in this repo. 
+1.) Reference your MonoCross.Utilities project from the MonoCross_TestFlightLogger project contained in this repo. 
 
 2.) Add a reference to MonoCross_TestFlightLogger to your MonoCross.Touch container app.
 
@@ -14,4 +14,8 @@ To setup:
 "string teamToken = "[your Token from TestFlight]";<br>
 "MXDevice.Log = new TestFlightLogger(teamToken, 0x10);"<br><br><br>
 
+
 TestFlight.dll created from the GitHub project 'monotouch-bindings' by @mono 
+
+
+*Please note, the MonoCross.Utilities assembly must be provided by you. It is not included in this project.
